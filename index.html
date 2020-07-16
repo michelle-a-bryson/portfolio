@@ -3,10 +3,122 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>Michelle Bryson- Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
   <body>
     <script src="script.js"></script>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: rgba(40, 40, 40, 0.9); ">
+      <div class = "d-flex flex-row order-2 order-sm-3">
+        <ul class = "navbar-nav flex-row">
+          <li class = "nav-item"><a class = "nav-link px-2" href="https://github.com/michelle-a-bryson" target = "blank">
+            <i class="fa fa-github" aria-hidden="true"></i> </a></li>
+          <li class = "nav-item"><a class = "nav-link px-2" href="https://www.linkedin.com/in/michelle-a-bryson/" target = "blank">
+            <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+        </ul>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Coursework</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume</a> 
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <main>
+      <div class = "home">
+        <div class="diagonal-box">
+          <div class="content">
+            
+            <h1>Hello! My name is Michelle Bryson.</h1>
+            <br>
+            <h3>I'm currently a freshman at <b>Carnegie Mellon University</b> majoring in 
+              Electrical and Computer Engineering and minoring in Robotics.
+              <br><br>
+              I am also a Software Engineer Intern at <b>Astrobotic</b>,
+              where I develop software for lunar rovers.
+            </h3>
+            <br>
+            <a class = "button" href = "#">Learn More</a>
+              
+          </div>
+        </div>
+        
+      </div>
+
+      <div id = "experience">
+        <h1>Experience</h1>
+        <br>
+        <div class = "grid-container">
+          <div class = "grid-item">
+            <div class = "card">
+              <h2>Astrobotic</h2>
+              <h3>Software Engineer Intern</h3>
+              <h6>AUGUST 2020 - PRESENT</h6>
+              <p>I am a Software Engineer Intern at Astrobotic on the Planetary Mobility Team,
+                where I develop software for lunar rovers scheduled to land on the moon.
+              </p>
+              <div class = "tag-container">
+                <div class = "tag"> C++</div>
+                <div class = "tag"> CSS</div>
+                <div class = "tag"> JavaScript</div>
+              </div>
+            </div>
+            
+          </div>
+          <div class = "grid-item">
+            <div class = "card">
+              <h2>Google</h2>
+              <h3>Computer Science Summer Institute</h3>
+              <h6>JULY 2020</h6>
+              <p>I'm currently a freshman at Carnegie Mellon University majoring in 
+                Electrical and Computer Engineering and minoring in Robotics.</p>
+              <div class = "tag-container">
+                <div class = "tag"> HTML</div>
+                <div class = "tag"> CSS</div>
+                <div class = "tag"> JavaScript</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+    </main>
+
+    
+
+
   </body>
 </html>
