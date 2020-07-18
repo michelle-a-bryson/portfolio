@@ -16,7 +16,15 @@ h2{
 
 p{
     font-weight: normal;
-    font-size: 16pt;
+    font-size: 14pt;
+}
+
+img{
+    height: 200px;
+    object-fit: cover;
+    object-position: 0 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .sub-header{
@@ -51,8 +59,8 @@ p{
 }
 
 @media (min-width: 600px) {
-    .project-container { grid-template-columns: repeat(1, 1fr); }
-    }
+.project-container { grid-template-columns: repeat(1, 1fr); }
+}
 
 @media (min-width: 900px) {
 .project-container { grid-template-columns: repeat(2, 1fr); }
@@ -66,7 +74,7 @@ p{
     margin: 0 auto;
     display: grid;
     grid-gap: 1rem;
-    }
+}
     
 .project-container > div {
     padding: 20px 20px;
@@ -82,6 +90,7 @@ p{
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 10px 0;
+    grid-gap: 4px;
 }
 
 .tag-container > div {
@@ -91,11 +100,11 @@ p{
 .tag{
     border: 2px solid rgba(40, 40, 40, 1);
     border-radius: 10px;
-    padding: 5px;
+    padding: 2px;
     text-align: center;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     margin: 0 20px 0 0px;
 }
 
@@ -119,7 +128,7 @@ p{
 
 .content1 {
     color: rgb(40, 40, 40);
-    padding: 40px 40px 30px 40px;
+    padding: 20px 40px 20px 40px;
 	max-width: 100em;
 	margin: 0 auto;
 	transform: skewY(-5deg);
@@ -135,12 +144,12 @@ p{
     border: 2px solid rgba(40, 40, 40, 1);
     border-radius: 10px;
     color: rgb(40, 40, 40);
-    padding: 16px 32px;
+    padding: 12px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -151,12 +160,76 @@ p{
     border: 2px solid rgba(40, 40, 40, 0);
     border-radius: 10px;
     color: #7765dd;
-    padding: 16px 32px;
+    padding: 12px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1{
+    background-color: rgba(40, 40, 40, 1); 
+    border: 2px solid rgba(40, 40, 40, 1);
+    border-radius: 10px;
+    color: #6a55df;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1:hover{
+    background-color: rgba(40, 40, 40, 1); 
+    border: 2px solid rgba(40, 40, 40, 0);
+    border-radius: 10px;
+    color: #b04bbd;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2{
+    background-color: #6a55df; 
+    border: 2px solid rgba(40, 40, 40, 0);;
+    border-radius: 10px;
+    color: rgb(240, 240, 240);
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2:hover{
+    background-color: #b04bbd; 
+    border: 2px solid rgba(40, 40, 40, 0);
+    border-radius: 10px;
+    color: rgb(240, 240, 240);
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -164,9 +237,13 @@ p{
 
 .card{
     background: rgb(240, 240, 240);
+    border-radius: 10px;
     color: rgb(40, 40, 40);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    padding: 40px;
+}
+
+.text{
+    padding: 20px 30px;
 }
 
 .home{
@@ -197,3 +274,95 @@ p{
 #projects p{
     font-size: 14pt;
 }
+
+.plug{
+    color: rgb(240, 240, 240);
+}
+
+
+.ribbon {
+position: absolute;
+right: -5px; top: -5px;
+z-index: 1;
+overflow: hidden;
+width: 75px; height: 75px;
+text-align: right;
+}
+.ribbon span {
+font-size: 10px;
+font-weight: bold;
+color: #FFF;
+text-transform: uppercase;
+text-align: center;
+line-height: 20px;
+transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+width: 100px;
+display: block;
+background: #6a55df;
+box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+position: absolute;
+top: 19px; right: -21px;
+}
+.ribbon span::before {
+content: "";
+position: absolute; left: 0px; top: 100%;
+z-index: -1;
+border-left: 3px solid #6a55df;
+border-right: 3px solid transparent;
+border-bottom: 3px solid transparent;
+border-top: 3px solid #6a55df;
+}
+.ribbon span::after {
+content: "";
+position: absolute; right: 0px; top: 100%;
+z-index: -1;
+border-left: 3px solid transparent;
+border-right: 3px solid #6a55df;
+border-bottom: 3px solid transparent;
+border-top: 3px solid #6a55df;
+}
+
+
+.ribbon1 {
+    position: absolute;
+    right: -5px; top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px; height: 75px;
+    text-align: right;
+    }
+    .ribbon1 span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 100px;
+    display: block;
+    background: rgb(40, 40, 40);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 19px; right: -21px;
+    }
+    .ribbon1 span::before {
+    content: "";
+    position: absolute; left: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid rgb(40, 40, 40);
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid rgb(40, 40, 40);
+    }
+    .ribbon1 span::after {
+    content: "";
+    position: absolute; right: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-right: 3px solid rgb(40, 40, 40);
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid rgb(40, 40, 40);
+    }
