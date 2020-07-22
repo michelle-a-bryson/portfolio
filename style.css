@@ -60,11 +60,11 @@ img{
 
 
 @media (min-width: 100px) {
-    .project-item { width: 400px; }
+    .project-item { width: 80vw }
 } 
 
 @media (min-width: 1200px) {
-.project-item { width: 460px; }
+.project-item { width: 30vw; }
 }
 
 .project-container {
