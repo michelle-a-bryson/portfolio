@@ -14,9 +14,23 @@ h2{
     font-weight: bold;
 }
 
+h5{
+    font-weight: bold;
+}
+
 p{
     font-weight: normal;
     font-size: 14pt;
+}
+
+ul{
+    padding-top: 6px;
+}
+
+li{
+    font-weight: normal;
+    font-size: 14pt;
+    padding: 6px;
 }
 
 img{
@@ -246,6 +260,10 @@ img{
 
 .home{
     padding: 80px 0 80px 0;
+}
+
+#education{
+    padding: 80px 200px;
 }
 
 #experience{
