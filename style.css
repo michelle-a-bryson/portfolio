@@ -15,7 +15,7 @@ h2{
 }
 
 h3{
-    font-size: 18pt;
+    font-size: 17pt;
 }
 
 h5{
@@ -25,6 +25,16 @@ h5{
 p{
     font-weight: normal;
     font-size: 14pt;
+}
+
+a{
+    color: rgb(40, 40, 40);
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgb(40, 40, 40);
+    font-weight: bold;
 }
 
 nav li{
