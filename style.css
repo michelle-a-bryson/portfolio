@@ -23,6 +23,16 @@ p{
     font-size: 14pt;
 }
 
+nav li{
+    padding: 0;
+    margin: 0;
+    font-size: 12pt;
+}
+
+nav ul{
+    padding: 0;
+}
+
 ul{
     padding-top: 6px;
 }
