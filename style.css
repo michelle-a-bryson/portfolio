@@ -53,8 +53,15 @@ ul{
 
 li{
     font-weight: normal;
-    font-size: 14pt;
-    padding: 6px;
+    font-size: 13pt;
+    padding: 6px 0px;
+}
+
+#experience img{
+    height: 120px;
+    object-fit: cover;
+    object-position: 0 0;
+
 }
 
 img{
@@ -310,7 +317,7 @@ img{
 }
 
 #projects p{
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 #coursework {
