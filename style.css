@@ -145,8 +145,8 @@ img{
 }
 
 .diagonal-box {
-	background-image: linear-gradient(45deg, #6a55df, #b04bbd);
-	transform: skewY(-5deg);
+	background-image: linear-gradient(45deg, #ccd4ff, #ffcce6);
+	transform: skewY(-3deg);
 }
 
 .content {
@@ -154,12 +154,12 @@ img{
     padding: 100px 40px 30px 40px;
 	max-width: 65em;
 	margin: 0 auto;
-	transform: skewY(5deg);
+	transform: skewY(3deg);
 }
 
 .diagonal-box1 {
-	background-image: linear-gradient(45deg, #6a55df, #b04bbd);
-	transform: skewY(5deg);
+	background-image: linear-gradient(45deg, #ccd4ff, #ffcce6);
+	transform: skewY(3deg);
 }
 
 .content1 {
@@ -167,7 +167,7 @@ img{
     padding: 20px 40px 20px 40px;
 	max-width: 100em;
 	margin: 0 auto;
-	transform: skewY(-5deg);
+	transform: skewY(-3deg);
 }
 
 
@@ -185,7 +185,7 @@ img{
     text-decoration: none;
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -195,13 +195,13 @@ img{
     background-color: rgba(40, 40, 40, 1); 
     border: 2px solid rgba(40, 40, 40, 0);
     border-radius: 10px;
-    color: #7765dd;
+    color: #ccd4ff;
     padding: 12px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -211,7 +211,7 @@ img{
     background-color: rgba(40, 40, 40, 1); 
     border: 2px solid rgba(40, 40, 40, 1);
     border-radius: 10px;
-    color: #6a55df;
+    color: rgb(240, 240, 240);
     padding: 12px 20px;
     text-align: center;
     text-decoration: none;
@@ -224,10 +224,10 @@ img{
 }
 
 .button1:hover{
-    background-color: rgba(40, 40, 40, 1); 
+    background-color: rgba(40, 40, 40, 0.9); 
     border: 2px solid rgba(40, 40, 40, 0);
     border-radius: 10px;
-    color: #b04bbd;
+    color: #fbdbff;
     padding: 12px 20px;
     text-align: center;
     text-decoration: none;
@@ -240,10 +240,10 @@ img{
 }
 
 .button2{
-    background-color: #6a55df; 
-    border: 2px solid rgba(40, 40, 40, 0);;
+    background-color: rgba(40, 40, 40, 0); 
+    border: 2px solid rgba(40, 40, 40, 1);
     border-radius: 10px;
-    color: rgb(240, 240, 240);
+    color: rgb(40, 40, 40);
     padding: 12px 20px;
     text-align: center;
     text-decoration: none;
@@ -256,10 +256,10 @@ img{
 }
 
 .button2:hover{
-    background-color: #b04bbd; 
-    border: 2px solid rgba(40, 40, 40, 0);
+    background-color: #fbdbff; 
+    border: 2px solid rgba(40, 40, 40, 1);
     border-radius: 10px;
-    color: rgb(240, 240, 240);
+    color: rgb(40, 40, 40);
     padding: 12px 20px;
     text-align: center;
     text-decoration: none;
